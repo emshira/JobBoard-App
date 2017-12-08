@@ -1,14 +1,14 @@
 !!!
 %html
 %head
-  %title Ruby on Rails Job
+  %title Ruby on Dev Job
   = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
   = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   = csrf_meta_tags
 %body
   %nav.navbar.navbar-default
     .container
-      .navbar-brand Rails Jobs
+      .navbar-brand Dev Jobs
       %ul.nav.navbar-nav
         %li= link_to "All Jobs", root_path
         -Category.all.each do |category|

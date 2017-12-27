@@ -4,7 +4,7 @@ class JobsController < ApplicationController
 
   def index
     @jobs = Job.scraper
-    
+
     # if params[:category].blank?
     #   @jobs = Job.all.order("created_at DESC")
     # else
@@ -26,7 +26,7 @@ class JobsController < ApplicationController
     if @job.save
       redirect_to @job
     else
-      render "New"
+      render "new"
     end
   end
 

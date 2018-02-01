@@ -1,24 +1,22 @@
-# README
+# Job Board App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ability to create new job posting, edit, and delete. Implemented web scrapping of dev jobs.
 
-Things you may want to cover:
 
-* Ruby version
+==============
 
-* System dependencies
+* Ruby version: 2.4.2
 
-* Configuration
 
-* Database creation
+* Rails version: 5.1.4
 
-* Database initialization
+=============
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Technology used:
 
-* Deployment instructions
 
-* ...
+* Ruby, Ruby on Rails, HAML, CSS, Bootstrap
+
+
+* Deployment: https://obscure-ravine-89935.herokuapp.com/

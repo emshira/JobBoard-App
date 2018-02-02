@@ -1,6 +1,6 @@
-# Job Board App
+# Jobs Board App
 
-Ability to create new job posting, edit, and delete. Implemented web scrapping of dev jobs.
+Ability to create new job posting by category, edit, and delete (complete CRUD); and search for dev jobs. Implemented web scrapping of dev jobs.
 
 
 ==============
@@ -16,7 +16,7 @@ Ability to create new job posting, edit, and delete. Implemented web scrapping o
 Technology used:
 
 
-* Ruby, Ruby on Rails, HAML, CSS, Bootstrap
+* Ruby, Ruby on Rails, HAML, SCSS/SASS, Bootstrap, git, gems: httparty, nokogiri, devise, PostgreSQL
 
 
-* Deployment: https://obscure-ravine-89935.herokuapp.com/
+* Deployment/website: https://obscure-ravine-89935.herokuapp.com/
